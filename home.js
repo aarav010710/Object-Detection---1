@@ -1,19 +1,19 @@
 function totv()
 {
-window.location("tv.html");
+window.location = "tv.html";
 }
 
 function elecimg()
 {
-    window.location("elec.html");
+    window.location = "elec.html";
 }
 
 function garageimg()
 {
-    window.location("garage.html");
+    window.location = "garage.html";
 }
 
 function bedimg()
 {
-    window.location("bedroom.html");
+    window.location = "bedroom.html";
 }

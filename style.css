@@ -34,3 +34,11 @@ border-radius: 10px;
     border: white;
     width: 150px;
 }
+
+.but
+{
+margin-top: 20px;
+float: right;
+margin-right: 50px;
+font-size: 18px;
+}

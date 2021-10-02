@@ -1,7 +1,6 @@
 <html>
 <head>
 
-	<title>Object Detection on Images</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -12,23 +11,18 @@
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   
   <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+</head> 
 
-<body background="download (1).jpg">
+<body background="background.jpg">
   <center>
-    <h1 class="btn btn-warning heading">Object Detection on Images</h1>
+    <h1 class="btn btn-warning heading">Realtime Object Detection</h1>
 
-    <button onclick="totv()" class="btn btn_success button">TV</button>
-    <br>
-    <button onclick="elecimg()" class="btn btn_success button">Electronics</button>
-    <br>
-    <button onclick="garageimg()" class="btn btn_success button">Garage</button>
-    <br>
-    <button onclick="bedimg()" class="btn btn_success button">Bedroom</button> 
-  
+    <h3 id="status" class="btn btn-primary"></h3>
+    <h3 id="number_objects" class="btn btn-warning"></h3>
+    <button onclick="backt()" class="btn btn-info but">Back</button>
   </center>
 
-  <script src="home.js"></script>
+  <script src="tv.js"></script>
 
 </body>
 </html>
